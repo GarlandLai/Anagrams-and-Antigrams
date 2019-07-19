@@ -13,9 +13,11 @@ _Will take two words entered by user and return whether the words are anagrams o
 1. [Click here](https://github.com/GarlandLai/Anagrams-and-Antigrams.git) to get started!
 2. _Clone the repository._
 3. _Save to desired location._
-4. _Open the terminal and enter the program._
-5. _Type: "ruby /lib/anagrams_and_antigrams.rb_
-6. _Enter in the input and see results in terminal._
+4. _Open the terminal and go into folder._
+5. _Check to make sure you're in the correct version_
+6. _Make sure gems are installed. If not, type "bundle install" in project directory._
+7. _Type: "ruby /lib/anagrams_and_antigrams.rb_
+8. _Enter in the input and see results in terminal._
 
 ## Known Bugs
 
