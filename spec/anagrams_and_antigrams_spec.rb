@@ -30,7 +30,7 @@ describe('#check_words') do
     check = AnagramAndAntigrams.new('Multiple words','Simple Lord wut')
     expect(check.check_words()).to(eq('These words are anagrams!'))
   end
-  it("to test antigram still works with multiple words") do
+  it("if antigrams still works with multiple words") do
     check = AnagramAndAntigrams.new('see you','pit tilt')
     expect(check.check_words()).to(eq('The words are antigrams since no letters match!'))
   end

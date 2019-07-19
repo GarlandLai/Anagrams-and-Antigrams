@@ -1,4 +1,4 @@
-# Garland Lai Anagrams and Antigrams
+# Anagrams and Antigrams
 
 ### _Epicodus Ruby Independent Project Week 1, July 19th, 2019_
 
@@ -10,16 +10,16 @@ _Will take two words entered by user and return whether the words are anagrams o
 
 ## Setup/Installation Requirements
 
-1. [Click here](https://github.com/GarlandLai/Anagrams-and-Antigrams.git) to get started!_
+1. [Click here](https://github.com/GarlandLai/Anagrams-and-Antigrams.git) to get started!
 2. _Clone the repository._
 3. _Save to desired location._
 4. _Open the terminal and enter the program._
 5. _Type: "ruby /lib/anagrams_and_antigrams.rb_
-6. _Enter in the input and see results in terminal.
+6. _Enter in the input and see results in terminal._
 
 ## Known Bugs
 
-* _No know bugs_
+* _No known bugs_
 
 ## Support and contact details
 
