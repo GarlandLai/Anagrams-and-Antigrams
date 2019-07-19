@@ -19,6 +19,17 @@ _Will take two words entered by user and return whether the words are anagrams o
 7. _Type: "ruby /lib/anagrams_and_antigrams.rb_
 8. _Enter in the input and see results in terminal._
 
+## Specifications
+
+| Behavior | Input | Output |
+| ------------- |:-------------:| -----:|
+| Return anagrams if letters all match | eat and tea | These words are anagrams! |
+| Returns regardless of capitalization | Eat and Tea | These words are anagrams! |
+| Use must enter valid word with a vowel | thrt and hrtt | You need to input actual words! |
+| Returns antigram if no letters match | hi and bye | The words are antigrams since no letters match! |
+| Return neither anagrams or antigrams | hey and bye | The words are not anagrams or antigrams. |
+| Return multiple words and disregards spaces | test words and wordtests | 'These words are anagrams! |
+
 ## Known Bugs
 
 * _No known bugs_
