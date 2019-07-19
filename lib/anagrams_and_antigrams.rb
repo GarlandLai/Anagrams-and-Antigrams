@@ -10,11 +10,17 @@ class AnagramAndAntigrams
   end
 
   def check_words
-    @@word1 = @@word1.split("").sort.join
-    @@word2 = @@word2.split("").sort.join
-    if @@word1 == @@word2
-      p "These words are anagrams!"
+    @@word1 = @@word1.split("").sort
+    @@word2 = @@word2.split("").sort
+
+    if @@word1.any?('a') == true || @@word1.any?('i') == true || @@word1.any?('e') == true || @@word1.any?('o') == true || @@word1.any?('u') == true || @@word1.any?('y') == true && @@word2.any?('a') == true || @@word2.any?('i') == true || @@word2.any?('e') == true || @@word2.any?('o') == true || @@word2.any?('u') == true || @@word2.any?('y') == true
+      if @@word1 == @@word2
+        p "These words are anagrams!"
+      end
+    else
+      p 'You need to input actual words!'
     end
+
   end
 end
 
