@@ -1,8 +1,10 @@
 require ('rspec')
-require ('anagram_and_antigrams')
+require ('anagrams_and_antigrams')
 
-describe("#anagram_and_antigrams") do
-it(") do
-  expect(.....(......)).to(eq(....))
+describe("#check_words") do
+
+it("if word input is an anagram, let the user know") do
+  expect(check_words("eat","tea")).to(eq("These words are anagrams!"))
   end
+
 end
