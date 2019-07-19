@@ -8,4 +8,9 @@ it("if word input is an anagram, let the user know") do
   expect(check.check_words()).to(eq('These words are anagrams!'))
   end
 
+it("if test different cases") do
+  check = AnagramAndAntigrams.new('tea','Eat')
+  expect(check.check_words()).to(eq('These words are anagrams!'))
+  end
+
 end
