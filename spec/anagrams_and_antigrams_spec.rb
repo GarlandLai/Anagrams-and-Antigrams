@@ -28,4 +28,9 @@ it("if words are not anagrams and antigrams") do
   expect(check.check_words()).to(eq('The words are not anagrams or antigrams.'))
 end
 
+it("if work on multiple input with multiple words") do
+  check = AnagramAndAntigrams.new('test words','wordtests')
+  expect(check.check_words()).to(eq('These words are anagrams!'))
+end
+
 end
