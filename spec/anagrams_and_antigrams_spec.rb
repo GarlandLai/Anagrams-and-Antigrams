@@ -18,10 +18,14 @@ it("if words entered is an actual word") do
   expect(check.check_words()).to(eq('You need to input actual words!'))
 end
 
-it("if words are an antigram") do
+it("if words are antigrams") do
   check = AnagramAndAntigrams.new('hi','bye')
   expect(check.check_words()).to(eq('The words are antigrams since no letters match!'))
 end
 
+it("if words are not anagrams and antigrams") do
+  check = AnagramAndAntigrams.new('hey','bye')
+  expect(check.check_words()).to(eq('The words are not anagrams or antigrams.'))
+end
 
 end
