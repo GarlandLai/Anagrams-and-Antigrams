@@ -14,7 +14,7 @@ class AnagramAndAntigrams
     @@word2 = @@word2.split("").sort
     @@word1 = @@word1.reject{|i| i == (" ")}
     @@word2 = @@word2.reject{|i| i == (" ")}
-binding.pry
+
     if @@word1.any?{|letter| ['a','e','i','o','u','y'].include? letter} && @@word2.any?{|letter| ['a','e','i','o','u','y'].include? letter}
       if @@word1 == @@word2
         p "These words are anagrams!"
