@@ -1,5 +1,6 @@
 require ('rspec')
 require ('anagrams_and_antigrams')
+require ('pry')
 
 describe('#check_words') do
   it("if word input is an anagram, let the user know") do
